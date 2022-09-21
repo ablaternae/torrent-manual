@@ -68,11 +68,13 @@ nav_external_links: false
 #  - title: Just the Docs on GitHub
 #    url: https://github.com/just-the-docs/just-the-docs
 
+nav_order: 5
+
 # Footer content
 # appears at the bottom of every page's main content
 
 # Back to top link
-back_to_top: true
+back_to_top: false
 back_to_top_text: "Back to top"
 
 footer_content: "(cc-by) 2008, 2017, 2022; для свободного распространения <a href=\"://github.com/ablaternae/torrent-manual/blob/trunk/LICENSE\">как народное достояние</a>"
@@ -85,11 +87,11 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
-gh_edit_link_text: "редактировать в репозитории"
+gh_edit_link_text: "редактировать эту страницу"
 gh_edit_repository: "https://github.com/ablaternae/torrent-manual/" # the github URL for your repo
 gh_edit_branch: "trunk" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
-gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
 color_scheme: light
