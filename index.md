@@ -1,12 +1,13 @@
 
 # Спецификация протокола BitTorrent в подробностях
+{: .no_toc }
 
 <details open markdown="block">
   <summary>
-    Table of contents
+    Содержание
   </summary>
   {: .text-delta }
-1. TOC
+- TOC
 {:toc}
 </details>
 
