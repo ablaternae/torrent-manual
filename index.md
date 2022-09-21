@@ -7,7 +7,7 @@
     Содержание
   </summary>
   {: .text-delta }
-- TOC
+1. TOC
 {:toc}
 </details>
 
