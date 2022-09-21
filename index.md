@@ -25,9 +25,9 @@ BitTorrent &mdash; это одноранговый протокол распро
 
 ## Связанные документы
 
-    [Официальная спецификация протокола](http://bittorrent.org/beps/bep_0003.html)
-    [Список запросов пользователей и разработчиков](https://wiki.theory.org/BitTorrentWishList)
-    [Расширения протокола трекеров](https://wiki.theory.org/BitTorrentTrackerExtensions)
+* [Официальная спецификация протокола](http://bittorrent.org/beps/bep_0003.html)
+* [Список запросов пользователей и разработчиков](https://wiki.theory.org/BitTorrentWishList)
+* [Расширения протокола трекеров](https://wiki.theory.org/BitTorrentTrackerExtensions)
 
 ## Соглашения
 
