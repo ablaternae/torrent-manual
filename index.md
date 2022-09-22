@@ -184,6 +184,7 @@ d<bencode-кодированная строка-ключ><bencode-кодиров
 * Pony
 * Prolog, автор mndrix
 * Python, автор Hackeron
+* [Python](https://github.com/eliasson/pieces/blob/master/pieces/bencoding.py), автор [Markus Eliasson](https://github.com/eliasson)
 * Scala, автор Andrea Fey
 * Scheme, автор Mark Skilbeck
 * VBScript, автор Demon
