@@ -154,6 +154,41 @@ d<bencode-кодированная строка-ключ><bencode-кодиров
 
 ### Известные реализации
 
+* [C](https://sourceforge.net/p/funzix/code/ci/master/tree/bencode/), автор Mike Frysinger
+* [C](https://github.com/willemt/CHeaplessBencodeReader)
+* [C](https://github.com/cwyang/bencode), автор [Chul-Woong Yang](https://github.com/cwyang)
+* C#, автор Søren Kruse
+* C#, автор SuprDewd
+* C#, автор LordMike
+* Clojure, автор nakkaya
+* Common Lisp, автор osa1
+* Elixir, автор Rodney Folz
+* Erlang
+* Erlang, автор ladybug
+* Go, автор Mark Samman
+* Decoding encoding bencoded data with haskell, автор Edi
+* Haskell, автор Mhitza
+* Java, автор gyurix
+* Java, автор Frazboyz
+* JavaScript, автор Demon
+* JavaScript, автор Ben Reinhart
+* JScript, автор Sergej B.
+* Objective-C, автор Chrome
+* OCaml, автор MLDonkey
+* Perl
+* PHP
+* PHP, автор Jesse Schalken
+* PHP Extension, автор Frederick Zhang
+* PHP Extension
+* Pixie
+* Pony
+* Prolog, автор mndrix
+* Python, автор Hackeron
+* Scala, автор Andrea Fey
+* Scheme, автор Mark Skilbeck
+* VBScript, автор Demon
+* Elixir, автор Patrick Gombert
+* Ruby, автор Kasper Holbek Jensen
 
 
 Реализация на языке C:
