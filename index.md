@@ -193,25 +193,13 @@ d<bencode-кодированная строка-ключ><bencode-кодиров
 * Ruby, автор Kasper Holbek Jensen
 
 
-Реализация на языке C:
-http://funzix.svn.sourceforge.net/viewvc/funzix/trunk/bencode/bencode.c?view=markup
+## Структура файла метаданных
 
-Реализация на языке Perl:
-http://search.cpan.org/dist/Convert-Bencode/lib/Convert/Bencode.pm
+Файл метаданных (metainfo file) закодирован в формате bencode, подробное описание которого приведено выше.
 
-Реализация на языке Java: http://www.koders.com/java/fid47111A56F2466C232E09AEF75A39915EC70D3536.aspx#L52
-	
+Содержимое файла метаданных (расширение файла ".torrent") представляет собой словарь bencode, ключи которого перечислены далее. Все строковые величины должны быть в кодировке UTF-8.
 
-
-Python bdecode: decoding bencoded data with python - I've written this because bencode.py in the bittorrent source directory doesn't really handle nested bencoded data found in scrapes and this is on average 5-6 times faster than the perl implementation --Hackeron 08:56, 28 February 2007 (PST) 
-
-Структура файла мета-данных
-
-Файл мета-данных закодирован в bencode-формате, подробное описание которого приведено выше.
-
-Содержимое файла мета-данных (расширение файла — ".torrent") — это bencode-кодированный словарь (пары «ключ — значение»), который содержит перечисленные ниже ключи. Все строковые величины закодированы в UTF-8.
-
-info: Хэш-таблица, описывающая файл(ы) торрента. Есть две возможных формы: первая — для случая с 'одно-файловым' торрентом, без описания структуры директорий; вторая — для 'много-файлового' торрента (см. подробности далее).
+* `info`: Хэш-таблица, описывающая файл(ы) торрента. Есть две возможных формы: первая — для случая с 'одно-файловым' торрентом, без описания структуры директорий; вторая — для 'много-файлового' торрента (см. подробности далее).
 
 announce: URL трекера для публикации торрента (строка).
 
