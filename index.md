@@ -152,26 +152,26 @@ d<bencode-кодированная строка-ключ><bencode-кодиров
 
 >Пример: `de` представляет пустой словарь {}
 
-### Известные реализации
+### Известные реализации на разных языках программирования
 
 * [C](https://sourceforge.net/p/funzix/code/ci/master/tree/bencode/), автор Mike Frysinger
 * [C](https://github.com/willemt/CHeaplessBencodeReader)
 * [C](https://github.com/cwyang/bencode), автор [Chul-Woong Yang](https://github.com/cwyang)
-* C#, автор Søren Kruse
-* C#, автор SuprDewd
-* C#, автор LordMike
-* Clojure, автор nakkaya
-* Common Lisp, автор osa1
-* Elixir, автор Rodney Folz
-* Erlang
-* Erlang, автор ladybug
-* Go, автор Mark Samman
-* Decoding encoding bencoded data with haskell, автор Edi
-* Haskell, автор Mhitza
-* Java, автор gyurix
-* Java, автор Frazboyz
-* JavaScript, автор Demon
-* JavaScript, автор Ben Reinhart
+* [C#](https://github.com/Krusen/BencodeNET), автор [Søren Kruse](https://twitter.com/sorenkrusen)
+* [C#](http://snipplr.com/view/37790/bencoding-encoder-and-decoder/), автор SuprDewd
+* [C#](http://bencode.codeplex.com/), автор LordMike
+* [Clojure](http://nakkaya.com/2009/11/02/decoding-bencoded-streams-in-clojure/), автор nakkaya
+* [Common Lisp](https://gist.github.com/2021424), автор osa1
+* [Elixir](https://github.com/folz/bento), автор [Rodney Folz](https://twitter.com/rodneyfolz)
+* [Erlang](https://wiki.theory.org/Decoding_encoding_bencoded_data_with_erlang)
+* [Erlang](https://github.com/galina/bencoded), автор ladybug
+* [Go](https://github.com/marksamman/bencode), автор [Mark Samman](https://twitter.com/marksamman)
+* [Haskell](https://wiki.theory.org/Decoding_encoding_bencoded_data_with_haskell), автор Edi
+* [Haskell](http://hackage.haskell.org/package/bencode), автор Mhitza
+* [Java](https://bitbucket.org/gyuriX/bencoder), автор gyurix
+* [Java](https://bitbucket.org/frazboyz/bencoder), автор Frazboyz
+* [JavaScript](http://demon.tw/my-work/javascript-bencode.html), автор [Demon](http://demon.tw)
+* [JavaScript\NodeJS](https://github.com/benjreinhart/bencode-js), автор [Ben Reinhart](http://benreinhart.com)
 * JScript, автор Sergej B.
 * Objective-C, автор Chrome
 * OCaml, автор MLDonkey
