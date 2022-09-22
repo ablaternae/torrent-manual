@@ -144,7 +144,7 @@ l<bencode-закодированные значения>e
 d<bencode-кодированная строка-ключ><bencode-кодированный элемент>e
 ```
 
-Начальный символ `d` и конечный `е` &mdash; начальный и конечный разделители, соответственно. Заметьте, что ключи должны быть [bencode строками](#%D0%B1%D0%B0%D0%B9%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8). Значения словаря могут быть любого bencode типа, включая целые числа, строки, списки и другие словари. Ключи должны быть только строковыми и представлены в отсортированном порядке общего вида, но не алфавитно-цифровом. Ключи следует сортировать с использованием побайтового сравнения, а не &laquo;естественного&raquo; порядка сравнения, принятого в вашей культуре или обществе.
+Начальный символ `d` и конечный `е` &mdash; начальный и конечный разделители, соответственно. Заметьте, что ключи должны быть [bencode строками](#%D0%B1%D0%B0%D0%B9%D1%82%D0%BE%D0%B2%D1%8B%D0%B5-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8). Значения словаря могут быть любого bencode типа, включая целые числа, строки, списки и другие словари. Ключи должны быть только строковыми и представлены в отсортированном порядке общего вида (sorted as raw strings), но не алфавитно-цифровом. Ключи следует сортировать с использованием побайтового сравнения, а не &laquo;естественного&raquo; порядка сравнения, принятого в культуре вашего общества.
 
 >Пример: `d3:cow3:moo4:spam4:eggse` представляет собой хэш-таблицу { "cow" => "moo", "spam" => "eggs" }
 
@@ -174,15 +174,14 @@ d<bencode-кодированная строка-ключ><bencode-кодиров
 * [Java](https://bitbucket.org/frazboyz/bencoder), автор Frazboyz
 * [JavaScript](http://demon.tw/my-work/javascript-bencode.html), автор [Demon](http://demon.tw)
 * [JavaScript\NodeJS](https://github.com/benjreinhart/bencode-js), автор [Ben Reinhart](http://benreinhart.com)
-* JScript, автор Sergej B.
-* Objective-C, автор Chrome
-* OCaml, автор MLDonkey
-* Perl
-* PHP
-* PHP, автор Jesse Schalken
-* PHP Extension, автор Frederick Zhang
-* PHP Extension
-* Pixie
+* [JScript](https://wiki.theory.org/JScript:_Converting_a_torrent_file_to_a_JScript_dictionary), автор Sergej B.
+* [Objective-C](http://www.stupendous.net/projects/bencoding-obj-c-class/), автор Chrome
+* [OCaml](http://cvs.savannah.gnu.org/viewvc/mldonkey/mldonkey/src/networks/bittorrent/bencode.ml?view=markup), автор MLDonkey
+* [Perl](https://search.cpan.org/perldoc?Net::BitTorrent::Protocol::BEP03::Bencode)
+* [PHP](https://wiki.theory.org/Decoding_encoding_bencoded_data_with_PHP)
+* [PHP](http://github.com/jesseschalken/pure-bencode), автор [Jesse Schalken](http://jesseschalken.com)
+* [PHP Extension](https://github.com/Frederick888/php-bencode), реализация на C++, автор [Frederick Zhang](https://blog.onee3.org)
+* [Pixie](https://github.com/stuarth/pixie-bencode)
 * Pony
 * Prolog, автор mndrix
 * Python, автор Hackeron
