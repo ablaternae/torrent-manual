@@ -182,28 +182,28 @@ d<bencode-кодированная строка-ключ><bencode-кодиров
 * [PHP](http://github.com/jesseschalken/pure-bencode), автор [Jesse Schalken](http://jesseschalken.com)
 * [PHP Extension](https://github.com/Frederick888/php-bencode), реализация на C++, автор [Frederick Zhang](https://blog.onee3.org)
 * [Pixie](https://github.com/stuarth/pixie-bencode)
-* Pony
-* Prolog, автор mndrix
-* Python, автор Hackeron
+* [Pony](https://github.com/mlajszczak/pony_bencode)
+* [Prolog](https://github.com/mndrix/bencode), автор mndrix
+* [Python](https://wiki.theory.org/Decoding_bencoded_data_with_python), автор Hackeron
 * [Python](https://github.com/eliasson/pieces/blob/master/pieces/bencoding.py), автор [Markus Eliasson](https://github.com/eliasson)
-* Scala, автор Andrea Fey
-* Scheme, автор Mark Skilbeck
-* VBScript, автор Demon
-* Elixir, автор Patrick Gombert
-* Ruby, автор Kasper Holbek Jensen
+* [Scala](https://github.com/andreafey/torrent/blob/master/src/main/scala/torrent/Bcodr.scala), автор Andrea Fey
+* [Scheme](https://bitbucket.org/mahcuz/bencode-scheme), автор [Mark Skilbeck](http://iammark.us/)
+* [VBScript](http://demon.tw/my-work/vbs-bencode.html), автор [Demon](http://demon.tw)
+* [Elixir](https://github.com/patrickgombert/bencodex), автор Patrick Gombert
+* [Ruby](https://github.com/kholbekj/bencoder), автор [Kasper Holbek Jensen](http://kasper.codes)
 
 
-## Структура файла метаданных
+## Структура файла метаинформации
 
-Файл метаданных (metainfo file) закодирован в формате bencode, подробное описание которого приведено выше.
+Файл метаданных (metainfo file, расширение файла `.torrent`) закодирован в формате bencode, подробное описание которого приведено выше.
 
-Содержимое файла метаданных (расширение файла ".torrent") представляет собой словарь bencode, ключи которого перечислены далее; необязательные, опциональные поля помечены звездочкой**. Все строковые величины должны быть в кодировке UTF-8.
+Содержимое файла метаданных представляет собой словарь bencode, ключи которого перечислены далее; необязательные, опциональные поля помечены звездочкой\*. Все строковые величины должны быть в кодировке UTF-8.
 
 * `info`: Хэш-таблица, описывающая файл(ы) торрента. Есть две возможных формы: первая — для случая с 'одно-файловым' торрентом, без описания структуры директорий; вторая — для 'много-файлового' торрента (см. подробности далее).
 
 * `announce`: URL трекера для публикации торрента (строка).
 
-* `announce-list`* : (опциональный) Это расширение к официальной спецификации с сохранением обратной совместимости. Ключ используется для реализации списка резервных трекеров. Полное описание можно найти здесь — http://home.elp.rr.com/tur/multitracker-spec.txt.
+* `announce-list*`: Это расширение к официальной спецификации с сохранением обратной совместимости. Ключ используется для реализации списка резервных трекеров. Значение представляет собой список списков строк. Полное описание можно найти здесь: [http://bittorrent.org/beps/bep_0012.html](http://bittorrent.org/beps/bep_0012.html).
 
 * `creation date*`: (опциональный) Дата создания торрента, в стандартном формате UNIX-времени (целое число секунд прошедших с 01 января 1970 00:00:00 по UTC).
 
